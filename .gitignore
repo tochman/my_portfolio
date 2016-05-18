@@ -22,3 +22,5 @@
 .idea/
 .idea/*
 
+# Ignote capybara files
+capybara-*

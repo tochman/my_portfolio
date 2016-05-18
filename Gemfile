@@ -10,10 +10,11 @@ gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 #Template engine
 gem 'haml'
 
+gem 'pry'
+
 group :development, :test do
   gem 'capybara'
   gem 'capybara-webkit'
-  gem 'pry'
   gem 'launchy'
   gem 'rspec'
 end

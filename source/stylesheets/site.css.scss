@@ -1,12 +1,15 @@
 @charset "utf-8";
 @import "normalize";
 
+$orange: #f28e24;
+$white:  #fff;
+
 // for presentation only
 body {
   marging-top: 2rem;
 }
 
-$menu-background: #333;
+$menu-background: $orange;
 
 .title-bar {
   background: $menu-background;
@@ -79,7 +82,7 @@ $menu-background: #333;
 
 
 .hero {
-  background: url('http://static.pexels.com/wp-content/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg') no-repeat center center;
+  background: url('https://craftacademy.github.io/craft-assets/images/backgrounds/splash_1.jpg') no-repeat center center;
   background-size: cover;
   height: 50vh;
   overflow: hidden;
@@ -91,18 +94,18 @@ $menu-background: #333;
 }
 
 .footer {
-  background-color: #292c2f;
+  background-color: $orange;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
   p {
     &.slogan {
-      color: #8d9093;
+      color: $white;
       font-size: 1.8rem;
       margin: 0 0 1rem;
     }
     &.copywrite {
-      color: #8f9296;
+      color: $white;
       font-size: 0.875rem;
       margin: 0;
     }
@@ -110,7 +113,7 @@ $menu-background: #333;
   .links a {
     list-style: none;
     font-weight: bold;
-    color: #ffffff;
+    color: $white;
     padding: 3rem 0 2rem;
     margin: 0;
     &::after {

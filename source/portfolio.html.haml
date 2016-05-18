@@ -1,0 +1,6 @@
+.row#projects
+  %h1 Projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %p= project[:description]
+    = link_to git_url(project[:git_repo])

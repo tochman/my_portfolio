@@ -10,6 +10,11 @@ configure :development do
   activate :livereload
 end
 
+helpers do
+  def git_url(repo)
+    "https://github.com/tochman/#{repo}"
+  end
+end
 
 
 # Build-specific configuration

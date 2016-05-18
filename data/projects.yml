@@ -1,7 +1,29 @@
 - name: My First Website
   description: Simple HTML5 site I've build during the PrepCourse
-  git_repo: tochman.github.io
+  git_repo: tochman/tochman.github.io
+  image_url: http://www.howimakealivingonline.net/wp-content/uploads/2013/05/the-beginning.jpg
 
 - name: FizzBuzz
   description: My first Test driven ruby project
-  git_repo: fizz_buzz
+  git_repo: craftacademy/fizz_buzz
+  image_url: http://www.programmr.com/sites/default/files/imagecache/pageview/fizzbuzz.JPG
+
+- name: ATM Challenge
+  description: Ruby basics
+  git_repo: craftacademy/atm_solution
+  image_url: http://cdn.gobankingrates.com/wp-content/uploads/2014/05/Use-an-In-Network-ATM.jpg
+
+- name: Library Challenge
+  description: Week 1 weekend challenge.
+  git_repo: craftacademy/library-challenge
+  image_url: https://s-media-cache-ak0.pinimg.com/236x/25/c1/4a/25c14a47b1544ec8fa7183236de7429b.jpg
+
+- name: FizzBuzzJS
+  description: FizzBuzz kata in JavaScript
+  git_repo: tochman/fizz_buzz_js_demo
+  image_url: http://s3-us-west-2.amazonaws.com/i.cdpn.io/184709.WvVOKB.da1a53c3-6ca4-4afd-9e20-9fd74c223f00.png
+
+- name: SlowFood Sinatra
+  description: Week 2  challenge.
+  git_repo: craftacademy/slow_food
+  image_url: https://upload.wikimedia.org/wikipedia/commons/6/63/SlowFoodThera06676.JPG

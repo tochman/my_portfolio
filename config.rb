@@ -12,7 +12,11 @@ end
 
 helpers do
   def git_url(repo)
-    "https://github.com/tochman/#{repo}"
+    "https://github.com/#{repo}"
+  end
+
+  def image_url(url)
+    url.nil? ? 'http://placehold.it/200x200&text=Project' : url
   end
 end
 

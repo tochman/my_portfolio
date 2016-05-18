@@ -16,4 +16,9 @@ describe 'index', type: :feature do
   it 'displays Middleman logo' do
     expect(page).to have_css 'img[src*="middleman-logo.svg"]'
   end
+
+  it 'displays project list' do
+
+    save_and_open_page
+  end
 end

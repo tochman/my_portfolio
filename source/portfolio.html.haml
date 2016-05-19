@@ -1,6 +1,9 @@
 .row
   .large-10.columns
     %h1 Projects
+    %p During my time at
+    %span= link_to 'Craft Academy', 'http://craftacademy.se', target: '_blank'
+    %span I've been working on...
 .row#projects
   .large-8.columns
   - data.projects.each_slice(3) do |group|

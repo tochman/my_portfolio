@@ -25,5 +25,5 @@
 
 - name: SlowFood Sinatra
   description: Week 2  challenge.
-  git_repo: craftacademy/slow_food
+  git_repo: craftacademy/slow_food_sinatra
   image_url: https://upload.wikimedia.org/wikipedia/commons/6/63/SlowFoodThera06676.JPG
